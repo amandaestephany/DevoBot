@@ -33,7 +33,7 @@ O DevoBot foi criado para:
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python 3.10+**  
+- **Python 3.14**  
 - Bibliotecas listadas em `requirements.txt`  
 - Arquitetura modular  
 - Pastas organizadas em:
