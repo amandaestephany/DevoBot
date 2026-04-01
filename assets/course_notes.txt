@@ -1,0 +1,28 @@
+O LangChain é uma biblioteca que facilita a construção de aplicações com modelos de linguagem.
+Ele permite combinar componentes como prompts, memória, ferramentas e cadeias de execução para criar agentes inteligentes.
+
+Um agente LangChain decide quais ações tomar com base na entrada do usuário.
+Ele pode invocar ferramentas externas, acessar memória e gerar respostas contextualizadas.
+Use agentes para tarefas como busca de informações, cálculos, análise de documentos, etc.
+
+As ferramentas (tools) são funções que o agente pode chamar para executar ações específicas.
+Exemplos: consultar uma base de dados, realizar cálculos ou recuperar trechos de texto.
+As ferramentas são registradas no agente e usadas quando necessário.
+
+A memória mantém o contexto da conversa entre trocas de mensagens.
+Tipos comuns:
+  - BufferMemory (armazena todas as mensagens)
+  - SummaryBufferMemory (resume o histórico em um texto curto)
+Resumo reduz tokens usados e mantém o agente focado no essencial.
+
+O RAG (Retrieval-Augmented Generation) combina recuperação de informações com geração.
+Em vez de depender só do LLM, o agente busca trechos relevantes na base de dados e injeta no prompt.
+
+O parâmetro temperature controla a aleatoriedade das respostas:
+  - Valores baixos (0.2) → respostas mais previsíveis
+  - Valores altos (0.8) → respostas mais criativas
+
+TF-IDF é uma técnica bag-of-words que mede frequência de termos.
+Limitação: não entende semântica nem sinônimos.
+Embedding semânticos representam o significado em vetores.
+Eles permitem recuperar texto baseado em similaridade de sentido, não só palavras exatas.

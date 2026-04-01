@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gpt-start-langchain"
+version = "0.1.0"
+description = "LangChain chatbot with TF-IDF RAG, tools, and memory"
+
+[tool.poetry.dependencies]
+python = "^3.14"
+openai = ">=1.60.0"
+python-dotenv = ">=1.0.0"
+langchain = ">=0.3.40"
+langchain-openai = ">=0.3.10"
+pydantic = ">=2.11.0"
+scikit-learn = ">=1.4.0"
+coloredlogs = ">=15.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
