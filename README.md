@@ -33,7 +33,8 @@ O DevoBot foi criado para:
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python 3.14**  
+- **Python 3.14**
+- IA Generativa
 - Bibliotecas listadas em `requirements.txt`  
 - Arquitetura modular  
 - Pastas organizadas em:
